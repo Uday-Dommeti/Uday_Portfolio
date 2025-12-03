@@ -12,7 +12,7 @@ function Home() {
 
             <div className="home-image mt-4 mt-md-0" data-aos="fade-left">
                 <img
-                    src="public/assets/Uday-PortFolio-Pic.jpg"
+                    src="/assets/Uday-PortFolio-Pic.jpg"
                     alt="Uday"
                     className="rounded-4 shadow-lg home-profile-img"
                     draggable="false"

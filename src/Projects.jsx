@@ -2,7 +2,7 @@ function Projects() {
     const projects = [
         {
             title: "Getgroo (eCommerce)",
-            image: "public/assets/Getgroo-Image.png",
+            image: "/assets/Getgroo-Image.png",
             description:
                 "A responsive e-commerce application frontend developed using JavaScript, ReactJS, and Redux Toolkit for robust state management of complex cart operations.",
             technologies: [
@@ -18,7 +18,7 @@ function Projects() {
         },
         {
             title: "Movie Database",
-            image: "public/assets/Movie-Database-Image.png",
+            image: "/assets/Movie-Database-Image.png",
             description:
                 "A fully functional Movie Database Application utilizing JavaScript and the ReactJS framework.Consists of a robust and efficient Movie Search Feature to allow users to quickly filter and find content.",
             technologies: [
