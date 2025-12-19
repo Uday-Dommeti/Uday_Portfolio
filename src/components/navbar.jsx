@@ -19,7 +19,7 @@ function Navbar() {
                     <a href="#Home" className="nav-link-custom">Home</a>
                     <a href="#About" className="nav-link-custom">About</a>
                     <a href="#Projects" className="nav-link-custom">Projects</a>
-                    <a href="https://drive.google.com/file/d/1cuWCI2L5ayJpCLYdyK5mxXKz5CWAxPNE/view?usp=sharing" target="_blank" className="nav-link-custom">Resume</a>
+                    <a href="https://drive.google.com/file/d/1U8nP8r09bAzEMEIMs3wiu33aMbzAbyzX/view?usp=sharing" target="_blank" className="nav-link-custom">Resume</a>
                     <a href="#Contact" className="nav-link-custom">Contact</a>
                 </div>
 
