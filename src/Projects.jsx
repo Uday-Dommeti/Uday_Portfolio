@@ -1,24 +1,38 @@
 function Projects() {
     const projects = [
+        // {
+        //     title: "Getgroo (eCommerce)",
+        //     image: "/assets/Getgroo-Image.png",
+        //     description:
+        //         "A responsive e-commerce application frontend developed using JavaScript, ReactJS, and Redux Toolkit for robust state management of complex cart operations.",
+        //     technologies: [
+        //         "ReactJS",
+        //         "Redux",
+        //         "Redux Toolkit",
+        //         "JavaScript",
+        //         "HTML",
+        //         "CSS",
+        //         "Bootstrap"
+        //     ],
+        //     liveLink: "Nothing for now"
+        // },
         {
-            title: "Getgroo (eCommerce)",
-            image: "/assets/Getgroo-Image.png",
+            title: "Getgroo (props)",
+            image: "/assets/Getgroo(Props).png",
             description:
-                "A responsive e-commerce application frontend developed using JavaScript, ReactJS, and Redux Toolkit for robust state management of complex cart operations.",
+                "A responsive e-commerce application frontend developed using JavaScript, ReactJS, and prop drilling for robust state management of complex cart operations.",
             technologies: [
                 "ReactJS",
-                "Redux",
-                "Redux Toolkit",
                 "JavaScript",
                 "HTML",
                 "CSS",
                 "Bootstrap"
             ],
-            liveLink: "Nothing for now"
+            liveLink: "https://getgroo-props.vercel.app/"
         },
         {
             title: "Movie Database",
-            image: "/assets/Movie-Database-Image.png",
+            image: "/assets/Movie Database.png",
             description:
                 "A fully functional Movie Database Application utilizing JavaScript and the ReactJS framework.Consists of a robust and efficient Movie Search Feature to allow users to quickly filter and find content.",
             technologies: [
@@ -28,7 +42,7 @@ function Projects() {
                 "CSS",
                 "Bootstrap"
             ],
-            liveLink: "Nothing for now"
+            liveLink: "https://movie-db-app-zeta.vercel.app/"
         },
     ];
 
@@ -58,7 +72,7 @@ function Projects() {
                                     <button className="btn btn-primary rounded-pill px-4" disabled={project.liveLink === "Nothing for now"}>
                                         {project.liveLink === "Nothing for now"
                                             ? "Coming soon"
-                                            : "Live Demo"}
+                                            : <a href={project.liveLink} className="text-decoration-none text-white" target="blank">Live Demo</a> }
                                     </button>
                                 </div>
                             </div>
