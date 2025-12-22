@@ -40,7 +40,7 @@ function Navbar() {
                 <a href="#Home" onClick={() => setOpen(false)}>Home</a>
                 <a href="#About" onClick={() => setOpen(false)}>About</a>
                 <a href="#Projects" onClick={() => setOpen(false)}>Projects</a>
-                <a href="https://drive.google.com/file/d/1cuWCI2L5ayJpCLYdyK5mxXKz5CWAxPNE/view?usp=sharing" target="_blank" onClick={() => setOpen(false)}>Resume</a>
+                <a href="https://drive.google.com/file/d/1U8nP8r09bAzEMEIMs3wiu33aMbzAbyzX/view?usp=sharing" target="_blank" onClick={() => setOpen(false)}>Resume</a>
                 <a href="#Contact" onClick={() => setOpen(false)}>Contact</a>
             </div>
         </>
