@@ -18,7 +18,7 @@ function Footer() {
                 <a href="#Home">Home</a>
                 <a href="#About">About</a>
                 <a href="#Projects">Projects</a>
-                <a href="https://drive.google.com/file/d/1cuWCI2L5ayJpCLYdyK5mxXKz5CWAxPNE/view?usp=sharing" target="_blank">Resume</a>
+                <a href="https://drive.google.com/file/d/1U8nP8r09bAzEMEIMs3wiu33aMbzAbyzX/view?usp=sharing" target="_blank">Resume</a>
                 <a href="#Contact">Contact</a>
             </div>
 
