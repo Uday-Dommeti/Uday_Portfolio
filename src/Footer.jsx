@@ -3,7 +3,7 @@ function Footer() {
     return (
         <footer className="footer-section">
             <div className="footer-social">
-                <a href="https://www.linkedin.com/in/uday-dommeti-59240a24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <a href="https://www.linkedin.com/in/Uday-Dommeti/" target="_blank">
                     <i className="bi bi-linkedin"></i>
                 </a>
                 <a href="https://github.com/Uday-Dommeti" target="_blank">
